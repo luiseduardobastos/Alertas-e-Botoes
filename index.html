@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Revisão do Evento de Click do Botão</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Revisão do Evento de Click do Botão</h1>
+        <p>Testando fazer sozinho a captura de eventos com a propriedade "click" de botões!</p>
+        <div class="btn-actions">
+            <button type="button" class="btn-alert" id="btn-alert">Alerta de Click</button>
+            <button type="button" class="btn-confirm" id="btn-confirm">Confirmação de Click</button>
+            <br>
+            <br>
+            <button type="button" class="btn-somar" id="btn-somar">Somar 2 valores</button>
+            <button type="button" class="btn-subtrair" id="btn-subtrair">Subtrair 2 valores</button>
+            <br>
+            <br>
+            <button type="button" class="btn-escolha" id="btn-escolha">Escolher a Operação</button>
+            <p>Resultado da Operação: <span><label id="text-resultado"></label></span></p>
+        </div>
+        <br>
+        <div class="inp-actions">
+            <input type="text" id="textVal1" placeholder="Digite o primeiro valor">
+            <input type="text" id="textVal2" placeholder="Digite o segundo valor">
+            <br>
+            <br>
+            <button type="button" class="btn-escolha-input" id="btn-escolha-input">Escolher a Operação das Caixas de
+                Texto</button>
+            <p>Resultado da Operação: <span><label id="text-resultado2"></label></span></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>

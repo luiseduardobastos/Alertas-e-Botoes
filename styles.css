@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(157, 150, 221);
+}
+
+.container {
+    background-color: rgb(232, 231, 236);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 650px;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    background-color: rgb(94, 77, 221);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(36, 12, 216);
+}
+
+.inp-actions {
+    background-color: rgb(212, 212, 218);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.btn-actions {
+    background-color: rgb(212, 212, 218);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    border-radius: px;
+    height: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+}
